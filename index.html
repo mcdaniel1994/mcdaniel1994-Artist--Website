@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Official portfolio of Elena Vasquez — contemporary photographer capturing the intersection of light, shadow, and human emotion." />
+    <title>Elena Vasquez | Photographer</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "#elena-vasquez",
+          "name": "Elena Vasquez",
+          "jobTitle": "Contemporary Photographer",
+          "description": "Award-winning photographer known for capturing raw emotion and the quiet poetry of everyday life.",
+          "url": "https://elenavasquez.com",
+          "sameAs": [
+            "https://instagram.com/elenavasquezphoto",
+            "https://twitter.com/elenavasquez"
+          ],
+          "knowsAbout": ["Photography", "Fine Art", "Portraiture", "Landscape Photography"]
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Between Breaths — Solo Exhibition",
+          "creator": { "@id": "#elena-vasquez" },
+          "description": "A 40-piece series exploring solitude in urban environments.",
+          "dateCreated": "2024"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Luz y Sombra",
+          "creator": { "@id": "#elena-vasquez" },
+          "description": "A monograph published by Aperture Foundation featuring 10 years of work.",
+          "dateCreated": "2023"
+        }
+      ]
+    }
+    </script>
+  </head>
+
+  <body>
+    <!-- ========== HEADER / NAV ========== -->
+    <header class="site-header" role="banner">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__logo" href="#hero" aria-label="Elena Vasquez — home">EV</a>
+        <ul class="nav__links" role="list">
+          <li><a class="nav__link" href="#about">About Me</a></li>
+          <li><a class="nav__link" href="#career">Career</a></li>
+          <li><a class="nav__link" href="#shows">Upcoming Shows</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ========== HERO ========== -->
+      <section id="hero" class="hero" aria-label="Hero — welcome">
+        <div class="hero__overlay" aria-hidden="true"></div>
+        <div class="hero__content">
+          <p class="hero__eyebrow">Contemporary Photography</p>
+          <h1 class="hero__name">Elena Vasquez</h1>
+          <p class="hero__tagline">Light is the language. Silence is the story.</p>
+          <a class="btn btn--outline" href="#about">Discover the Work</a>
+        </div>
+        <div class="hero__scroll-hint" aria-hidden="true">
+          <span class="hero__scroll-line"></span>
+          <span class="hero__scroll-label">Scroll</span>
+        </div>
+      </section>
+
+      <!-- ========== ABOUT ME ========== -->
+      <section id="about" class="about section" aria-labelledby="about-heading">
+        <div class="section__inner about__inner">
+          <div class="about__image-wrap">
+            <img
+              class="about__photo"
+              src="https://placehold.co/560x680/1a1a2e/e0e0e0?text=Elena+Vasquez"
+              alt="Portrait of Elena Vasquez standing in her studio surrounded by large-format prints"
+              width="560"
+              height="680"
+            />
+          </div>
+          <div class="about__text">
+            <span class="section__label" aria-hidden="true">01 — About</span>
+            <h2 id="about-heading" class="section__title">About Me</h2>
+            <p class="about__lead">I photograph the world the way memory works — selective, luminous, and a little blurred at the edges.</p>
+            <p>Born in Seville and based in New York City, I've spent two decades chasing light across five continents. My practice centers on long-exposure portraiture and architectural abstraction, finding the human in the monumental and the monumental in the mundane.</p>
+            <p>My work has been exhibited at the MoMA PS1, the Tate Modern, and the Museo Nacional Centro de Arte Reina Sofía. In 2023, Aperture Foundation published my first monograph, <em>Luz y Sombra</em>.</p>
+            <p>When I'm not behind the lens, I teach advanced darkroom techniques at the International Center of Photography in Manhattan.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== CAREER ========== -->
+      <section id="career" class="career section section--dark" aria-labelledby="career-heading">
+        <div class="section__inner career__inner">
+          <div class="career__header">
+            <span class="section__label" aria-hidden="true">02 — Career</span>
+            <h2 id="career-heading" class="section__title">Career Highlights</h2>
+            <p class="career__intro">Over 20 years of work across fine art, editorial, and documentary photography.</p>
+          </div>
+
+          <ol class="timeline" role="list" aria-label="Career timeline">
+            <li class="timeline__item">
+              <article class="timeline__card">
+                <time class="timeline__year" datetime="2024">2024</time>
+                <h3 class="timeline__title">Between Breaths — MoMA PS1</h3>
+                <p class="timeline__body">Solo exhibition of 40 large-format prints exploring urban solitude. Ran for 14 weeks; attended by over 60,000 visitors.</p>
+              </article>
+            </li>
+            <li class="timeline__item">
+              <article class="timeline__card">
+                <time class="timeline__year" datetime="2023">2023</time>
+                <h3 class="timeline__title">Aperture Monograph: <em>Luz y Sombra</em></h3>
+                <p class="timeline__body">Published by Aperture Foundation. Selected as one of <em>Time</em> magazine's "10 Best Photography Books of the Year."</p>
+              </article>
+            </li>
+            <li class="timeline__item">
+              <article class="timeline__card">
+                <time class="timeline__year" datetime="2022">2022</time>
+                <h3 class="timeline__title">World Press Photo — 1st Place, Portrait</h3>
+                <p class="timeline__body">Won first place in the Portrait Stories category for the series <em>Mujeres del Puerto</em>, documenting fishing communities in Cádiz.</p>
+              </article>
+            </li>
+            <li class="timeline__item">
+              <article class="timeline__card">
+                <time class="timeline__year" datetime="2021">2021</time>
+                <h3 class="timeline__title">Tate Modern — Group Exhibition: <em>New Cartographies</em></h3>
+                <p class="timeline__body">One of six artists selected to represent emerging voices in contemporary documentary photography.</p>
+              </article>
+            </li>
+            <li class="timeline__item">
+              <article class="timeline__card">
+                <time class="timeline__year" datetime="2018">2018</time>
+                <h3 class="timeline__title">National Geographic — Artist in Residence</h3>
+                <p class="timeline__body">Six-month residency resulting in the 12-page feature <em>The Last Shepherds of the Sierra</em>, reaching 4.2 million readers.</p>
+              </article>
+            </li>
+            <li class="timeline__item">
+              <article class="timeline__card">
+                <time class="timeline__year" datetime="2014">2014</time>
+                <h3 class="timeline__title">ICP — Faculty Appointment</h3>
+                <p class="timeline__body">Appointed adjunct faculty at the International Center of Photography, teaching Advanced Darkroom and Fine Art Printing.</p>
+              </article>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ========== UPCOMING SHOWS ========== -->
+      <section id="shows" class="shows section" aria-labelledby="shows-heading">
+        <div class="section__inner shows__inner">
+          <div class="shows__header">
+            <span class="section__label" aria-hidden="true">03 — Shows</span>
+            <h2 id="shows-heading" class="section__title">Upcoming Shows</h2>
+            <p class="shows__intro">Catch the work in person — each venue offers something different.</p>
+          </div>
+
+          <ul class="shows__list" role="list" aria-label="Upcoming exhibitions and events">
+            <li class="show-card" role="listitem">
+              <article aria-labelledby="show-1-title">
+                <div class="show-card__meta">
+                  <time class="show-card__date" datetime="2026-04-12">Apr 12 – May 30, 2026</time>
+                  <span class="show-card__type">Solo Exhibition</span>
+                </div>
+                <h3 id="show-1-title" class="show-card__title">Threshold</h3>
+                <p class="show-card__venue">Fotografiska New York — 281 Park Ave S, New York, NY</p>
+                <p class="show-card__desc">A new body of work examining liminal spaces — doorways, bridges, and shorelines — as metaphors for transition.</p>
+              </article>
+            </li>
+
+            <li class="show-card" role="listitem">
+              <article aria-labelledby="show-2-title">
+                <div class="show-card__meta">
+                  <time class="show-card__date" datetime="2026-06-05">Jun 5, 2026 · 7:00 PM</time>
+                  <span class="show-card__type">Artist Talk</span>
+                </div>
+                <h3 id="show-2-title" class="show-card__title">The Ethics of the Gaze</h3>
+                <p class="show-card__venue">ICP — 79 Essex St, New York, NY</p>
+                <p class="show-card__desc">A public lecture on the politics of documentary photography and consent, followed by a Q&amp;A and book signing.</p>
+              </article>
+            </li>
+
+            <li class="show-card" role="listitem">
+              <article aria-labelledby="show-3-title">
+                <div class="show-card__meta">
+                  <time class="show-card__date" datetime="2026-07-18">Jul 18 – Sep 14, 2026</time>
+                  <span class="show-card__type">Group Exhibition</span>
+                </div>
+                <h3 id="show-3-title" class="show-card__title">Visions of the Anthropocene</h3>
+                <p class="show-card__venue">Fundación MAPFRE — Paseo de Recoletos 23, Madrid, Spain</p>
+                <p class="show-card__desc">International group show bringing together 18 photographers responding to climate change and ecological transformation.</p>
+              </article>
+            </li>
+
+            <li class="show-card" role="listitem">
+              <article aria-labelledby="show-4-title">
+                <div class="show-card__meta">
+                  <time class="show-card__date" datetime="2026-10-03">Oct 3 – Nov 22, 2026</time>
+                  <span class="show-card__type">Solo Exhibition</span>
+                </div>
+                <h3 id="show-4-title" class="show-card__title">Nocturnes</h3>
+                <p class="show-card__venue">Hamiltons Gallery — 13 Carlos Pl, London, UK</p>
+                <p class="show-card__desc">Long-exposure night photography from Tokyo, Lagos, and São Paulo — cities awake while their inhabitants sleep.</p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="site-footer" role="contentinfo" aria-label="Site footer">
+      <div class="footer__inner">
+        <p class="footer__name">Elena Vasquez</p>
+        <p class="footer__tagline">Contemporary Photography</p>
+        <address class="footer__contact">
+          <a class="footer__link" href="mailto:studio@elenavasquez.com" aria-label="Email Elena's studio">studio@elenavasquez.com</a>
+          <span class="footer__sep" aria-hidden="true">·</span>
+          <a class="footer__link" href="tel:+12125550182" aria-label="Call Elena's studio">+1 (212) 555-0182</a>
+        </address>
+        <nav class="footer__social" aria-label="Social media links">
+          <a class="footer__link" href="#" aria-label="Elena Vasquez on Instagram" rel="noopener noreferrer">Instagram</a>
+          <span class="footer__sep" aria-hidden="true">·</span>
+          <a class="footer__link" href="#" aria-label="Elena Vasquez on Twitter/X" rel="noopener noreferrer">Twitter / X</a>
+          <span class="footer__sep" aria-hidden="true">·</span>
+          <a class="footer__link" href="#" aria-label="Elena Vasquez on LinkedIn" rel="noopener noreferrer">LinkedIn</a>
+        </nav>
+        <p class="footer__copy">
+          <small>&copy; <time datetime="2026">2026</time> Elena Vasquez. All rights reserved.</small>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
